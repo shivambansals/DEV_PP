@@ -1,4 +1,4 @@
-let cellContainer = document.querySelector(".cells");
+let cellsContainer = document.querySelector(".cells");
 
 function initCells(){
     let cellsContent = '<div class = "top-left-cell"></div>';
@@ -24,6 +24,6 @@ function initCells(){
         cellsContent += "</div>";
     }
     cellsContent += "</div>";
-    cellContainer.innerHTML = cellsContent;
+    cellsContainer.innerHTML = cellsContent;
 }
 initCells();
